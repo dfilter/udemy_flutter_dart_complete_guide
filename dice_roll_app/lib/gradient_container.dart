@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'dice_roller.dart';
 
-// import 'package:first_app/styled_text.dart';
+// import 'package:dice_roll_app/styled_text.dart';
 
 const startAlignment = Alignment.topLeft;
 const endAlignement = Alignment.bottomRight;
