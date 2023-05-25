@@ -5,3 +5,4 @@ linux/
 macos/
 web/
 windows/
+.DS_Store
