@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_internals/demo_buttons.dart';
 
@@ -6,7 +7,9 @@ class UIUpdatesDemo extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    print('UIUpdatesDemo BUILD called');
+    if (kDebugMode) {
+      print('UIUpdatesDemo BUILD called');
+    }
     return const Padding(
       padding: EdgeInsets.all(8.0),
       child: Center(

@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 class DemoButtons extends StatefulWidget {
@@ -14,7 +15,9 @@ class _DemoButtonsState extends State<DemoButtons> {
 
   @override
   Widget build(BuildContext context) {
-    print('DemoButtons BUILD called');
+    if (kDebugMode) {
+      print('DemoButtons BUILD called');
+    }
     return Column(
       mainAxisSize: MainAxisSize.min,
       children: [
